@@ -1,0 +1,52 @@
+    .dateTimePicker{ height: 15px; font-size: 10px;}
+    .dateTimePicker table {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background-color:#FFF0F5;
+    width: 200px;
+     
+    }
+    .dateTimePicker table tbody{
+    position: relative;
+     
+    }
+    .dateTimePicker table tbody tr td{
+    text-align: center;
+     
+    }
+    .dateTimePicker table tbody tr td.dayUnSelected{
+    background-color: #A3AED3;
+    cursor: pointer;
+    }
+    .dateTimePicker table tbody tr td.daySelected{
+    color : #666;
+    background-color: #DDDDDD;
+    cursor: pointer;
+    border:1px solid #005BAA;
+    }
+    .dateTimePicker table tbody tr td.dayWrongMonth{
+    background-color: #fff;
+    cursor: pointer;
+    }
+    .dateTimePicker table tbody tr td.dayUnSelected:hover{
+    color : #fff;
+    }
+    .dateTimePicker table tr th{
+    color : #fff;
+    background-color: #59627A;
+    cursor: pointer;
+    }
+    .dtPickerOff {
+    display: none;
+    }
+    .dtPickerEmButton{
+    cursor: pointer;
+    }
+    .dtPickerEmButton:hover{
+    color : #fff;
+    background-color: #59627A;
+    }
+    .dtPickerOn{}
+    .dateTimePicker table tbody tr.dtPickerNavTr td{border:1px solid #005BAA;
+    }
